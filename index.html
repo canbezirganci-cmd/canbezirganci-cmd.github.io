@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monimi | Active Mind Cutter</title>
+    <title>Monimi – Overthink Cutter</title>
     <meta name="description"
         content="Meet Obie. Break overthinking loops with 14+ gamified tools. Fold thoughts into origami, turn anxiety into pixels, and dance it off.">
     <link rel="icon" type="image/jpeg" href="real_logo.jpg">
@@ -13,16 +13,7 @@
 
 <body>
 
-    <!-- Floating Kaomoji Background -->
-    <div class="kaomoji-bg">
-        <div class="floating-item" style="left: 10%; animation-duration: 25s;">( ˶ˆᵕˆ˶ )</div>
-        <div class="floating-item" style="left: 80%; animation-duration: 22s; animation-delay: 2s;">( ᵕ‿ᵕ )</div>
-        <div class="floating-item" style="left: 30%; animation-duration: 28s; animation-delay: 5s;">( ˘͈ ᵕ ˘͈ )</div>
-        <div class="floating-item" style="left: 60%; animation-duration: 24s; animation-delay: 1s;">( ˶˘ ᵕ ˘˶ )</div>
-        <div class="floating-item" style="left: 20%; animation-duration: 30s; animation-delay: 8s;">(•ᴗ•✿)</div>
-        <div class="floating-item" style="left: 70%; animation-duration: 26s; animation-delay: 3s;">(=^・ᵕ・^=)</div>
-        <div class="floating-item" style="left: 50%; animation-duration: 20s; animation-delay: 10s;">(•̤ᴥ•̤)</div>
-    </div>
+
 
     <header>
         <div class="container"
@@ -45,256 +36,374 @@
                 Don't just meditate.<br>
                 <span style="color: var(--accent-orange);">Cut the loop.</span>
             </h1>
-            <p style="max-width: 600px; margin-bottom: 40px; color: var(--text-muted);">
-                Overthinking isn't a passive state. It needs an active cutter.
-                Meet <strong>Obie</strong>, your companion in turning mental noise into pixel art, origami, and stars.
+            <p style="max-width: 650px; margin-bottom: 40px; color: var(--text-muted);">
+                More than an app, it’s your bridge back to reality. Combine 14+ grounding tools with global anonymous
+                connections and curated mindful content.
+                A safe space to silence the noise, catch some light, and reclaim your present moment.
             </p>
-            <div style="display: flex; gap: 16px;">
-                <a href="#toolkits" class="btn btn-primary">Open Toolkit</a>
-                <a href="#library" class="btn" style="border: 1px solid var(--text-main);">Mindful Library</a>
-            </div>
         </section>
 
-        <!-- Toolkits Section (Expanding) -->
-        <section id="toolkits">
-            <div class="container toolkit-container">
-                <div style="text-align: center; margin-bottom: 40px;">
-                    <h2>14+ Active Cutters</h2>
-                    <p>Unlock the full kit. Each tool attacks anxiety from a different angle.</p>
-                </div>
-
-                <!-- The Trigger Card -->
-                <div class="toolkit-trigger" id="toolkitTrigger">
-                    <div style="font-size: 3rem; margin-bottom: 16px;">🎒</div>
-                    <h3>Open Your Toolkit</h3>
-                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 8px;">Click to reveal all 14+
-                        tools</p>
-                </div>
-
-                <!-- The Expanded Grid -->
-                <div class="toolkit-grid-expanded" id="toolkitGrid">
-                    <!-- Featured Interactive Cards -->
-                    <div class="toolkit-card origami-card" style="grid-column: span 2;">
-                        <div class="origami-folder"></div>
-                        <div>
-                            <div class="card-icon">🦢</div>
-                            <h3>Thought Origami</h3>
-                        </div>
-                    </div>
-
-                    <div class="toolkit-card pixel-card" style="grid-column: span 2;">
-                        <div class="pixel-grid">
-                            <div class="pixel"></div>
-                            <div class="pixel"></div>
-                            <div class="pixel"></div>
-                            <div class="pixel"></div>
-                            <div class="pixel"></div>
-                            <div class="pixel"></div>
-                        </div>
-                        <div>
-                            <div class="card-icon">👾</div>
-                            <h3>Action Atoms</h3>
-                        </div>
-                    </div>
-
-                    <!-- Mini Cards for the Rest -->
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">🦖</div>
-                        <div class="mini-tool-name">Thought Monster</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">🩰</div>
-                        <div class="mini-tool-name">Pattern Breaker</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">✨</div>
-                        <div class="mini-tool-name">Star Converter</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">📨</div>
-                        <div class="mini-tool-name">Note to Future</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">🌬️</div>
-                        <div class="mini-tool-name">Breath Bridge</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">🎲</div>
-                        <div class="mini-tool-name">Task Roulette</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">👁️</div>
-                        <div class="mini-tool-name">Orbital Scan</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">⚡</div>
-                        <div class="mini-tool-name">Rule 90</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">🧱</div>
-                        <div class="mini-tool-name">5-4-3-2-1</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">📦</div>
-                        <div class="mini-tool-name">Worry Box</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">🎨</div>
-                        <div class="mini-tool-name">Art Flow</div>
-                    </div>
-                    <div class="mini-tool-card">
-                        <div class="mini-tool-icon">⏳</div>
-                        <div class="mini-tool-name">Time Travel</div>
-                    </div>
-                </div>
+        <!-- Interactive Tree Timeline -->
+        <section class="timeline-section" id="toolkits">
+            <div class="timeline-title-area section-title">
+                <h2 style="font-size: 3.5rem; letter-spacing: -2px;">14+ Interactive Toolkits</h2>
+                <p style="color: var(--text-muted); font-size: 1.2rem; margin-top: 10px;">Scientifically designed
+                    anchors for your mind.</p>
             </div>
-        </section>
 
-        <!-- Mindful Library (Tabs) -->
-        <section id="library">
+            <div class="timeline-progress" id="timelineProgress"></div>
+
             <div class="container">
-                <div style="text-align: center; margin-bottom: 40px;">
-                    <h2>Mindful Library</h2>
-                    <p>Science-backed sessions. Not just calming—smart.</p>
-                </div>
-
-                <div class="library-tabs">
-                    <button class="lib-tab active" data-tab="meditation">Meditation (15 Voices)</button>
-                    <button class="lib-tab" data-tab="sleep">Sleep (Video Mode)</button>
-                    <button class="lib-tab" data-tab="neuro">Neuroscience</button>
-                </div>
-
-                <div class="lib-content-grid">
-                    <!-- Tab Content: Meditation (Default) -->
-                    <div id="meditation-content" class="lib-feature-card" style="background: var(--bg-base);">
-                        <div style="font-size: 2rem; margin-bottom: 16px;">🧘‍♀️</div>
-                        <h3>Two Styles, 15 Voices</h3>
-                        <p style="margin-top: 12px; color: var(--text-muted);">
-                            Choose your guide.
-                            <strong>Monimi Style</strong> for direct, playful intervention.
-                            <strong>Classic Style</strong> for traditional calm.
-                        </p>
-                        <div style="margin-top: 24px; display: flex; gap: 8px; flex-wrap: wrap;">
-                            <span
-                                style="padding: 4px 12px; background: rgba(0,0,0,0.05); border-radius: 12px; font-size: 0.8rem;">Deep
-                                Male</span>
-                            <span
-                                style="padding: 4px 12px; background: rgba(0,0,0,0.05); border-radius: 12px; font-size: 0.8rem;">Soft
-                                Female</span>
-                            <span
-                                style="padding: 4px 12px; background: rgba(0,0,0,0.05); border-radius: 12px; font-size: 0.8rem;">Obie's
-                                Voice</span>
+                <div class="timeline-container">
+                    <!-- Item 1: Nightly Brain Dump (Left) -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Nightly Brain Dump</h3>
+                            <p>
+                                Transform the heavy thoughts in your mind into stars shining brightly in your personal
+                                sky.
+                                Watch them drift light-years away over time, and end your day with a magnificent
+                                supernova.
+                            </p>
                         </div>
+                        <div class="timeline-decor item-decor-left">🌠</div>
                     </div>
 
-                    <!-- Tab Content: Sleep -->
-                    <div id="sleep-content" class="lib-feature-card" style="background: #1E202E; color: white;">
-                        <button class="video-toggle-btn">▶ Play Video Mode</button>
-                        <div
-                            style="position: absolute; bottom: 0; left: 0; right: 0; height: 100%; opacity: 0.3; background: url('https://images.unsplash.com/photo-1510137600163-2729bc699931?auto=format&fit=crop&q=80') center/cover;">
-                        </div>
-                        <div
-                            style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
-                            <h3>Sleep Stories</h3>
-                            <p style="color: rgba(255,255,255,0.7); margin-top: 8px;">
-                                Drifting off? Turn on <strong>Video Mode</strong>.
-                                Watch a crackling fireplace or ocean waves while you listen to the cat purring in the
-                                background.
+                    <!-- Item 2: Action Atoms (Right) -->
+                    <div class="timeline-item">
+                        <div class="timeline-decor item-decor-right">⚛️</div>
+                        <div class="timeline-dot" style="border-color: var(--accent-teal);"></div>
+                        <div class="timeline-content">
+                            <h3>Action Atoms</h3>
+                            <p>
+                                Break procrastination down to its atoms and ignite your momentum.
+                                Whether you’re silencing perfectionism or crushing decision paralysis, <strong>Action
+                                    Atoms</strong> invites you to take a tiny, bold 5-minute step.
                             </p>
                         </div>
                     </div>
 
-                    <!-- Tab Content: Neuroscience -->
-                    <div id="neuro-content" class="lib-feature-card" style="display: none; grid-column: span 2;">
-                        <div style="font-size: 2rem; margin-bottom: 16px;">🧠</div>
-                        <h3>The Logic of the Brain</h3>
-                        <p style="margin-top: 12px; color: var(--text-muted);">
-                            Why do you loop? It's the Amygdala hijacking your prefrontal cortex.
-                            We explain the science so you can hack the system.
-                        </p>
+                    <!-- Item 3: Pattern Breaker (Left) -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot" style="border-color: var(--accent-pink);"></div>
+                        <div class="timeline-content">
+                            <h3>Pattern Breaker</h3>
+                            <p>
+                                Shatter your mental loops with a burst of physical energy.
+                                <strong>Pattern Breaker</strong> is designed to quiet your mind by moving your body.
+                                Dance, leap, and disrupt the cycle in the most <strong>joyful</strong> way possible.
+                            </p>
+                        </div>
+                        <div class="timeline-decor item-decor-left">💃</div>
+                    </div>
+
+                    <!-- Item 4: Evidence Card (Right) -->
+                    <div class="timeline-item">
+                        <div class="timeline-decor item-decor-right">⚖️</div>
+                        <div class="timeline-dot" style="border-color: var(--accent-purple);"></div>
+                        <div class="timeline-content">
+                            <h3>Evidence Card</h3>
+                            <p>
+                                Put your negative thoughts on trial and let facts speak louder than feelings.
+                                Reach a <strong>balanced verdict</strong> like a fair judge and embrace the liberating
+                                power of <strong>objective truth</strong>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 5: The Worry Jar (Left) -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot" style="border-color: var(--accent-orange);"></div>
+                        <div class="timeline-content">
+                            <h3>The Worry Jar</h3>
+                            <p>
+                                Store your daily anxieties as <strong>delicious snacks</strong> for 'The Eater,' your
+                                personal worry-monster.
+                                watch the Eater consume them in a single bite. Lighten your load and <strong>take back
+                                    control</strong>.
+                            </p>
+                        </div>
+                        <div class="timeline-decor item-decor-left">👾</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <footer>
-            <div class="container">
-                <div style="margin-bottom: 24px;">
-                    <span style="font-size: 3rem;">( ˶ˆᵕˆ˶ )</span>
+        <!-- Mindful Library: The Branching Section -->
+        <section class="library-section" id="library">
+                        <div class="container section-title" style="text-align: center;">
+                            <h2 style="font-size: 4rem; letter-spacing: -3px; margin-bottom: 20px;">Mindful Library</h2>
+                            <p
+                                style="color: var(--text-muted); font-size: 1.3rem; max-width: 700px; margin: 0 auto; line-height: 1.6;">
+                                Explore the science of peace and the art of recovery through our curated collections.
+                            </p>
+                        </div>
+
+                        <div class="library-grid">
+                            <!-- Branching Lines (Animated by JS) -->
+                            <div class="junction-point" id="libraryJunction">
+                                <div class="branch-line branch-left" id="lineNeuro"></div>
+                                <div class="branch-line branch-center" id="lineSleep"></div>
+                                <div class="branch-line branch-right" id="lineMed"></div>
+                            </div>
+
+                            <!-- 1. Neuroscience Card -->
+                            <div class="lib-card" id="cardNeuro">
+                                <div class="lib-card-icon">🧠</div>
+                                <h3>Neuroscience</h3>
+                                <p>Decode the biology of fear and rewire your brain. Explore the neuroscience of why
+                                    your amygdala overreacts and how those endless 'what-if' loops are formed. Don't
+                                    just manage anxiety; tame overthinking at its roots with science-backed techniques.
+                                </p>
+                            </div>
+
+                            <!-- 2. Sleep Stories Card -->
+                            <div class="lib-card" id="cardSleep">
+                                <div class="lib-card-icon">🌙</div>
+                                <h3>Sleep Stories</h3>
+                                <p>Drift into deep rest with ancient myths and tranquil tales woven to soothe the
+                                    overthinking mind. Designed to gently 'bore' your racing thoughts into a peaceful
+                                    slumber, these stories transform the night into a sanctuary of recovery.</p>
+                            </div>
+
+                            <!-- 3. Meditation Card -->
+                            <div class="lib-card" id="cardMed">
+                                <div class="lib-card-icon">🧘</div>
+                                <h3>Meditation</h3>
+                                <p>Find your center in just 5 minutes, even amidst the greatest chaos. Access guided
+                                    stillness specifically structured for the busy mind, helping you step out of thought
+                                    storms and back into the present moment. Short, powerful, and always by your side.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+        <!-- Community Section: Firefly Lake -->
+        <section class="community-section" id="community">
+            <div class="lib-to-comm-bridge" id="libCommBridge"></div>
+            <div class="firefly-swarm" id="fireflySwarm"></div>
+            
+            <div class="container section-title" style="text-align: center; position: relative; z-index: 20; padding-top: 60px;">
+                <h2 style="font-size: 3.5rem; letter-spacing: -2px; margin-bottom: 10px; color: var(--text-main);">Community</h2>
+                <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+                    Release your thoughts into the collective glow of others.
+                </p>
+            </div>
+
+            <div class="community-flow">
+                <!-- Vertical Connector Line -->
+                <div class="comm-line" id="lineComm"></div>
+                
+                <div class="lake-card" id="lakeCard">
+                    <div class="lake-card-icon">🏮</div>
+                    <h3 style="color: var(--text-main); margin-bottom: 20px; font-size: 1.8rem;">Firefly Lake</h3>
+                    <p class="lake-desc">
+                        "You don't have to navigate your racing thoughts alone. Release a thought, a hope, or a silent goodbye as a firefly into the shared lake, and watch it join the lights of fellow wanderers. Catch the echoes of others, feel the strength in shared solitude, and become part of an anonymous, poetic, and safe sanctuary."
+                    </p>
+                    <div class="lake-footer" style="margin-top: 30px; font-weight: 700; color: var(--accent-orange);">
+                        Share your light, and let’s illuminate the night together.
+                    </div>
                 </div>
-                <h3>Start your journey with Obie.</h3>
-                <p style="margin: 16px 0 32px;">Download Monimi on Google Play.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.mukaka.overthinkcutter"
-                    class="btn btn-primary" style="padding: 12px 24px;">Get Monimi</a>
-                <div style="margin-top: 40px; font-size: 0.9rem; color: var(--text-muted);">
-                    &copy; 2026 Monimi. Made with ✨ and pixels.
+
                 </div>
             </div>
-        </footer>
+        </section>
+
+        <!-- "And mooooore..." Section -->
+        <section class="more-section" id="more">
+            <div class="comm-to-more-bridge" id="commMoreBridge"></div>
+            
+            <div class="container section-title" style="text-align: center; position: relative; z-index: 20;">
+                <h2 style="font-size: 3.5rem; letter-spacing: -2px; margin-bottom: 10px; color: var(--text-main); font-style: italic;">And mooooore...</h2>
+                <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto; margin-bottom: 60px;">
+                    Deeper tools to anchor your presence.
+                </p>
+            </div>
+
+            <div class="more-grid">
+                <!-- Junction System -->
+                <div class="more-junction" id="moreJunction">
+                    <div class="more-branch more-branch-l" id="moreLineL"></div>
+                    <div class="more-branch more-branch-c" id="moreLineC"></div>
+                    <div class="more-branch more-branch-r" id="moreLineR"></div>
+                </div>
+
+                <!-- 1. Monimi Chat -->
+                <div class="more-card" id="cardChat">
+                    <div class="more-card-icon">💬</div>
+                    <h3>Monimi Chat</h3>
+                    <p>Vent, reflect, or just laugh at the noise. Monimi is that friend who actually knows where the 'off' switch for your overthinking is. Untangle the mess together and leave with a 'Session Snapshot' and a lighter soul.</p>
+                </div>
+
+                <!-- 2. Journal -->
+                <div class="more-card" id="cardJournal">
+                    <div class="more-card-icon">🌳</div>
+                    <h3>Journal</h3>
+                    <p>Watch your progress grow like a tree of life. Your daily notes, completed sessions, and mindful practices bloom in a stunning visual timeline. Look back and see the beautiful map.</p>
+                </div>
+
+                <!-- 3. Your Companion, Obie -->
+                <div class="more-card" id="cardObie">
+                    <div class="more-card-icon">🐸</div>
+                    <h3>Your Companion, Obie</h3>
+                    <p>Embark on a serene journey with Obie the Frog. Slow down your world by popping worry-bubbles and find your inner peace through interactive, tactile, and mindful mini-games designed to ground you.</p>
+                </div>
+            </div>
+        </section>
+
+                    <footer>
+                        <div class="container">
+                            <div style="margin-bottom: 24px;">
+                                <span style="font-size: 3rem;">( ˶ˆᵕˆ˶ )</span>
+                            </div>
+                            <h3>Start your journey with Obie.</h3>
+                            <p style="margin: 16px 0 32px;">Download Monimi on Google Play.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.mukaka.overthinkcutter"
+                                class="btn btn-primary" style="padding: 12px 24px;">Get Monimi</a>
+                            <div style="margin-top: 60px; font-size: 0.9rem;">
+                                <div style="margin-bottom: 24px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                                    <a href="https://sites.google.com/view/privacy-monimi" target="_blank" class="footer-link">Privacy Policy</a>
+                                    <a href="https://sites.google.com/view/termsofuse-monimi" target="_blank" class="footer-link">Terms of Use</a>
+                                </div>
+                                <div style="color: var(--text-muted); letter-spacing: 0.5px;">
+                                    &copy; 2026 Monimi. Made with care for your mind.
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
     </main>
 
     <script>
-        // Expanding Toolkit Logic
-        const trigger = document.getElementById('toolkitTrigger');
-        const grid = document.getElementById('toolkitGrid');
+        // --- Monimi Ultra-Premium Scroll Engine ---
+        const progressLine = document.getElementById('timelineProgress');
+        const timelineSection = document.querySelector('.timeline-section');
+        const timelineItems = document.querySelectorAll('.timeline-item');
 
-        trigger.addEventListener('click', () => {
-            trigger.style.display = 'none'; // Hide trigger
-            grid.classList.add('open'); // Show grid
+        const librarySection = document.querySelector('.library-section');
+        const libJunction = document.getElementById('libraryJunction');
+        const libLines = [document.getElementById('lineNeuro'), document.getElementById('lineSleep'), document.getElementById('lineMed')];
+        const libCards = document.querySelectorAll('.lib-card');
+        const libCommBridge = document.getElementById('libCommBridge');
 
-            // Stagger reveal of mini cards
-            const cards = grid.querySelectorAll('.toolkit-card, .mini-tool-card');
-            cards.forEach((card, index) => {
-                card.style.opacity = 0;
-                card.style.transform = 'translateY(20px)';
-                setTimeout(() => {
-                    card.style.transition = 'all 0.4s ease';
-                    card.style.opacity = 1;
-                    card.style.transform = 'translateY(0)';
-                }, index * 50);
+        // Firefly Lake Elements
+        const lakeCard = document.getElementById('lakeCard');
+        const swarm = document.getElementById('fireflySwarm');
+        const lineComm = document.getElementById('lineComm');
+        const communitySection = document.getElementById('community');
+
+        // More Section Elements
+        const moreSection = document.getElementById('more');
+        const commMoreBridge = document.getElementById('commMoreBridge');
+        const moreJunction = document.getElementById('moreJunction');
+        const moreLines = [document.getElementById('moreLineL'), document.getElementById('moreLineC'), document.getElementById('moreLineR')];
+        const moreCards = document.querySelectorAll('.more-card');
+        
+        // Create Fireflies
+        if (swarm) {
+            for (let i = 0; i < 30; i++) {
+                const f = document.createElement('div');
+                f.className = 'firefly';
+                f.style.left = Math.random() * 100 + '%';
+                f.style.top = Math.random() * 100 + '%';
+                f.style.animationDelay = Math.random() * 5 + 's';
+                swarm.appendChild(f);
+            }
+        }
+
+        // Optimized IntersectionObserver
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+                else entry.target.classList.remove('visible');
             });
-        });
+        }, { threshold: 0.1, rootMargin: "0px 0px -10% 0px" });
 
-        // Tab Logic
-        const tabs = document.querySelectorAll('.lib-tab');
-        const contents = document.querySelectorAll('.lib-feature-card');
+        timelineItems.forEach(item => revealObserver.observe(item));
+        libCards.forEach(card => revealObserver.observe(card));
+        moreCards.forEach(card => revealObserver.observe(card));
+        document.querySelectorAll('.section-title').forEach(st => revealObserver.observe(st));
 
-        // Define content blocks (create them dynamically if needed or just toggle visibility)
-        // For simplicity, we will stick to the existing structure but ensure IDs are unique and correct
-        const meditationContent = document.getElementById('meditation-content');
-        const sleepContent = document.getElementById('sleep-content');
-        const neuroContent = document.getElementById('neuro-content');
+        // High-Precision Progress Mapping
+        const updatePhysics = () => {
+            const winH = window.innerHeight;
 
-        // Initial State
-        sleepContent.style.display = 'none';
-        neuroContent.style.display = 'none';
+            // 1. Timeline
+            const tRect = timelineSection.getBoundingClientRect();
+            const tStart = 350;
+            const tDist = winH - tRect.top - tStart;
+            const tTotal = tRect.height - tStart - 200;
+            let tProgress = Math.max(0, Math.min(1, tDist / tTotal));
+            progressLine.style.transform = `scaleY(${tProgress})`;
 
-        tabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                // Active Class
-                tabs.forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
+            // 2. Library
+            const lRect = librarySection.getBoundingClientRect();
+            if (lRect) {
+                const branchStart = winH - lRect.top - 100;
+                const branchTotal = 400; 
+                let lProgress = Math.max(0, Math.min(1, branchStart / branchTotal));
 
-                // Hide All First
-                meditationContent.style.display = 'none';
-                sleepContent.style.display = 'none';
-                neuroContent.style.display = 'none';
-
-                const type = tab.getAttribute('data-tab');
-
-                if (type === 'meditation') {
-                    meditationContent.style.display = 'block';
-                    // We can also show sleep side-by-side if on desktop?
-                    // Let's stick to single focus per tab for clarity based on user feedback
-                } else if (type === 'sleep') {
-                    sleepContent.style.display = 'block';
-                    sleepContent.style.gridColumn = 'span 2'; // Full width for video
-                } else if (type === 'neuro') {
-                    neuroContent.style.display = 'block';
-                    neuroContent.style.gridColumn = 'span 2';
+                if (lProgress > 0) {
+                    libJunction.classList.add('active');
+                    libLines.forEach(line => { if (line) line.style.height = (lProgress * 70) + 'px'; });
+                    if (lProgress > 0.95) {
+                        libCards.forEach((card, idx) => {
+                            setTimeout(() => card.classList.add('visible'), idx * 200);
+                        });
+                    }
+                } else {
+                    libJunction.classList.remove('active');
+                    libCards.forEach(card => card.classList.remove('visible'));
+                    libLines.forEach(line => { if (line) line.style.height = '0px'; });
                 }
-            });
-        });
+            }
+
+            // 3. Community Bridge & Flow
+            const cRect = communitySection.getBoundingClientRect();
+            const bridgeStart = winH - cRect.top + 100; // Trigger when approaching
+            const bridgeTotal = 200;
+            let bProgress = Math.max(0, Math.min(1, bridgeStart / bridgeTotal));
+
+            if (libCommBridge) libCommBridge.style.height = (bProgress * 80) + 'px';
+
+            const cStart = winH - cRect.top - 200;
+            const cTotal = 300;
+            let cProgress = Math.max(0, Math.min(1, cStart / cTotal));
+
+            if (cProgress > 0) {
+                lineComm.style.height = (cProgress * 80) + 'px';
+                if (cProgress > 0.9) lakeCard.classList.add('visible');
+            } else {
+                lineComm.style.height = '0px';
+                lakeCard.classList.remove('visible');
+            }
+
+            // 4. More Section Bridge & Branching
+            const mRect = moreSection.getBoundingClientRect();
+            const mBridgeStart = winH - mRect.top + 100;
+            const mBridgeTotal = 200;
+            let mbProgress = Math.max(0, Math.min(1, mBridgeStart / mBridgeTotal));
+
+            if (commMoreBridge) commMoreBridge.style.height = (mbProgress * 80) + 'px';
+
+            const mBranchStart = winH - mRect.top - 150;
+            const mBranchTotal = 300;
+            let mProgress = Math.max(0, Math.min(1, mBranchStart / mBranchTotal));
+
+            if (mProgress > 0) {
+                moreJunction.classList.add('active');
+                moreLines.forEach(line => { if (line) line.style.height = (mProgress * 70) + 'px'; });
+            } else {
+                moreJunction.classList.remove('active');
+                moreLines.forEach(line => { if (line) line.style.height = '0px'; });
+            }
+        };
+
+        window.addEventListener('scroll', () => {
+            window.requestAnimationFrame(updatePhysics);
+        }, { passive: true });
+
+        updatePhysics(); // Initial trigger
     </script>
 </body>
 
