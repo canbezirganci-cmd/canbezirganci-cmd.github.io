@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monimi | Active Mind Cutter</title>
+    <meta name="description"
+        content="Meet Obie. Break overthinking loops with 14+ gamified tools. Fold thoughts into origami, turn anxiety into pixels, and dance it off.">
+    <link rel="icon" type="image/jpeg" href="real_logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Floating Kaomoji Background -->
+    <div class="kaomoji-bg">
+        <div class="floating-item" style="left: 10%; animation-duration: 25s;">( ˶ˆᵕˆ˶ )</div>
+        <div class="floating-item" style="left: 80%; animation-duration: 22s; animation-delay: 2s;">( ᵕ‿ᵕ )</div>
+        <div class="floating-item" style="left: 30%; animation-duration: 28s; animation-delay: 5s;">( ˘͈ ᵕ ˘͈ )</div>
+        <div class="floating-item" style="left: 60%; animation-duration: 24s; animation-delay: 1s;">( ˶˘ ᵕ ˘˶ )</div>
+        <div class="floating-item" style="left: 20%; animation-duration: 30s; animation-delay: 8s;">(•ᴗ•✿)</div>
+        <div class="floating-item" style="left: 70%; animation-duration: 26s; animation-delay: 3s;">(=^・ᵕ・^=)</div>
+        <div class="floating-item" style="left: 50%; animation-duration: 20s; animation-delay: 10s;">(•̤ᴥ•̤)</div>
+    </div>
+
+    <header>
+        <div class="container"
+            style="display: flex; justify-content: space-between; align-items: center; padding-top: 24px;">
+            <a href="#"
+                style="font-family: var(--font-heading); font-weight: 700; font-size: 1.5rem; text-decoration: none; color: var(--text-main); display: flex; align-items: center; gap: 8px;">
+                <img src="real_logo.jpg" alt="Monimi" style="width: 40px; height: 40px; border-radius: 12px;">
+                Monimi
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.mukaka.overthinkcutter"
+                class="btn btn-primary">Get the App</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="obie-avatar" title="Hi, I'm Obie!">(•ᴗ•✿)</div>
+            <h1 style="max-width: 900px; margin-bottom: 24px;">
+                Don't just meditate.<br>
+                <span style="color: var(--accent-orange);">Cut the loop.</span>
+            </h1>
+            <p style="max-width: 600px; margin-bottom: 40px; color: var(--text-muted);">
+                Overthinking isn't a passive state. It needs an active cutter.
+                Meet <strong>Obie</strong>, your companion in turning mental noise into pixel art, origami, and stars.
+            </p>
+            <div style="display: flex; gap: 16px;">
+                <a href="#toolkits" class="btn btn-primary">Open Toolkit</a>
+                <a href="#library" class="btn" style="border: 1px solid var(--text-main);">Mindful Library</a>
+            </div>
+        </section>
+
+        <!-- Toolkits Section (Expanding) -->
+        <section id="toolkits">
+            <div class="container toolkit-container">
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <h2>14+ Active Cutters</h2>
+                    <p>Unlock the full kit. Each tool attacks anxiety from a different angle.</p>
+                </div>
+
+                <!-- The Trigger Card -->
+                <div class="toolkit-trigger" id="toolkitTrigger">
+                    <div style="font-size: 3rem; margin-bottom: 16px;">🎒</div>
+                    <h3>Open Your Toolkit</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 8px;">Click to reveal all 14+
+                        tools</p>
+                </div>
+
+                <!-- The Expanded Grid -->
+                <div class="toolkit-grid-expanded" id="toolkitGrid">
+                    <!-- Featured Interactive Cards -->
+                    <div class="toolkit-card origami-card" style="grid-column: span 2;">
+                        <div class="origami-folder"></div>
+                        <div>
+                            <div class="card-icon">🦢</div>
+                            <h3>Thought Origami</h3>
+                        </div>
+                    </div>
+
+                    <div class="toolkit-card pixel-card" style="grid-column: span 2;">
+                        <div class="pixel-grid">
+                            <div class="pixel"></div>
+                            <div class="pixel"></div>
+                            <div class="pixel"></div>
+                            <div class="pixel"></div>
+                            <div class="pixel"></div>
+                            <div class="pixel"></div>
+                        </div>
+                        <div>
+                            <div class="card-icon">👾</div>
+                            <h3>Action Atoms</h3>
+                        </div>
+                    </div>
+
+                    <!-- Mini Cards for the Rest -->
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">🦖</div>
+                        <div class="mini-tool-name">Thought Monster</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">🩰</div>
+                        <div class="mini-tool-name">Pattern Breaker</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">✨</div>
+                        <div class="mini-tool-name">Star Converter</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">📨</div>
+                        <div class="mini-tool-name">Note to Future</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">🌬️</div>
+                        <div class="mini-tool-name">Breath Bridge</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">🎲</div>
+                        <div class="mini-tool-name">Task Roulette</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">👁️</div>
+                        <div class="mini-tool-name">Orbital Scan</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">⚡</div>
+                        <div class="mini-tool-name">Rule 90</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">🧱</div>
+                        <div class="mini-tool-name">5-4-3-2-1</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">📦</div>
+                        <div class="mini-tool-name">Worry Box</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">🎨</div>
+                        <div class="mini-tool-name">Art Flow</div>
+                    </div>
+                    <div class="mini-tool-card">
+                        <div class="mini-tool-icon">⏳</div>
+                        <div class="mini-tool-name">Time Travel</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mindful Library (Tabs) -->
+        <section id="library">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <h2>Mindful Library</h2>
+                    <p>Science-backed sessions. Not just calming—smart.</p>
+                </div>
+
+                <div class="library-tabs">
+                    <button class="lib-tab active" data-tab="meditation">Meditation (15 Voices)</button>
+                    <button class="lib-tab" data-tab="sleep">Sleep (Video Mode)</button>
+                    <button class="lib-tab" data-tab="neuro">Neuroscience</button>
+                </div>
+
+                <div class="lib-content-grid">
+                    <!-- Tab Content: Meditation (Default) -->
+                    <div id="meditation-content" class="lib-feature-card" style="background: var(--bg-base);">
+                        <div style="font-size: 2rem; margin-bottom: 16px;">🧘‍♀️</div>
+                        <h3>Two Styles, 15 Voices</h3>
+                        <p style="margin-top: 12px; color: var(--text-muted);">
+                            Choose your guide.
+                            <strong>Monimi Style</strong> for direct, playful intervention.
+                            <strong>Classic Style</strong> for traditional calm.
+                        </p>
+                        <div style="margin-top: 24px; display: flex; gap: 8px; flex-wrap: wrap;">
+                            <span
+                                style="padding: 4px 12px; background: rgba(0,0,0,0.05); border-radius: 12px; font-size: 0.8rem;">Deep
+                                Male</span>
+                            <span
+                                style="padding: 4px 12px; background: rgba(0,0,0,0.05); border-radius: 12px; font-size: 0.8rem;">Soft
+                                Female</span>
+                            <span
+                                style="padding: 4px 12px; background: rgba(0,0,0,0.05); border-radius: 12px; font-size: 0.8rem;">Obie's
+                                Voice</span>
+                        </div>
+                    </div>
+
+                    <!-- Tab Content: Sleep -->
+                    <div id="sleep-content" class="lib-feature-card" style="background: #1E202E; color: white;">
+                        <button class="video-toggle-btn">▶ Play Video Mode</button>
+                        <div
+                            style="position: absolute; bottom: 0; left: 0; right: 0; height: 100%; opacity: 0.3; background: url('https://images.unsplash.com/photo-1510137600163-2729bc699931?auto=format&fit=crop&q=80') center/cover;">
+                        </div>
+                        <div
+                            style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
+                            <h3>Sleep Stories</h3>
+                            <p style="color: rgba(255,255,255,0.7); margin-top: 8px;">
+                                Drifting off? Turn on <strong>Video Mode</strong>.
+                                Watch a crackling fireplace or ocean waves while you listen to the cat purring in the
+                                background.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tab Content: Neuroscience -->
+                    <div id="neuro-content" class="lib-feature-card" style="display: none; grid-column: span 2;">
+                        <div style="font-size: 2rem; margin-bottom: 16px;">🧠</div>
+                        <h3>The Logic of the Brain</h3>
+                        <p style="margin-top: 12px; color: var(--text-muted);">
+                            Why do you loop? It's the Amygdala hijacking your prefrontal cortex.
+                            We explain the science so you can hack the system.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div style="margin-bottom: 24px;">
+                    <span style="font-size: 3rem;">( ˶ˆᵕˆ˶ )</span>
+                </div>
+                <h3>Start your journey with Obie.</h3>
+                <p style="margin: 16px 0 32px;">Download Monimi on Google Play.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.mukaka.overthinkcutter"
+                    class="btn btn-primary" style="padding: 12px 24px;">Get Monimi</a>
+                <div style="margin-top: 40px; font-size: 0.9rem; color: var(--text-muted);">
+                    &copy; 2026 Monimi. Made with ✨ and pixels.
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // Expanding Toolkit Logic
+        const trigger = document.getElementById('toolkitTrigger');
+        const grid = document.getElementById('toolkitGrid');
+
+        trigger.addEventListener('click', () => {
+            trigger.style.display = 'none'; // Hide trigger
+            grid.classList.add('open'); // Show grid
+
+            // Stagger reveal of mini cards
+            const cards = grid.querySelectorAll('.toolkit-card, .mini-tool-card');
+            cards.forEach((card, index) => {
+                card.style.opacity = 0;
+                card.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    card.style.transition = 'all 0.4s ease';
+                    card.style.opacity = 1;
+                    card.style.transform = 'translateY(0)';
+                }, index * 50);
+            });
+        });
+
+        // Tab Logic
+        const tabs = document.querySelectorAll('.lib-tab');
+        const contents = document.querySelectorAll('.lib-feature-card');
+
+        // Define content blocks (create them dynamically if needed or just toggle visibility)
+        // For simplicity, we will stick to the existing structure but ensure IDs are unique and correct
+        const meditationContent = document.getElementById('meditation-content');
+        const sleepContent = document.getElementById('sleep-content');
+        const neuroContent = document.getElementById('neuro-content');
+
+        // Initial State
+        sleepContent.style.display = 'none';
+        neuroContent.style.display = 'none';
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Active Class
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                // Hide All First
+                meditationContent.style.display = 'none';
+                sleepContent.style.display = 'none';
+                neuroContent.style.display = 'none';
+
+                const type = tab.getAttribute('data-tab');
+
+                if (type === 'meditation') {
+                    meditationContent.style.display = 'block';
+                    // We can also show sleep side-by-side if on desktop?
+                    // Let's stick to single focus per tab for clarity based on user feedback
+                } else if (type === 'sleep') {
+                    sleepContent.style.display = 'block';
+                    sleepContent.style.gridColumn = 'span 2'; // Full width for video
+                } else if (type === 'neuro') {
+                    neuroContent.style.display = 'block';
+                    neuroContent.style.gridColumn = 'span 2';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
