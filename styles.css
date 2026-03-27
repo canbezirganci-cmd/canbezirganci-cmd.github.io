@@ -1202,6 +1202,12 @@ footer {
     border-top: 1px solid var(--card-border);
 }
 
+.footer-face {
+    font-size: 3rem;
+    display: inline-block;
+    animation: bounce 3s infinite ease-in-out;
+}
+
 .footer-link {
     color: var(--text-main);
     text-decoration: none;
